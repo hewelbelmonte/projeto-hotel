@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+   background-image: url('../imagens/pexels-delcho-dichev-1129615.jpg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   color: white;
+}
+
+header.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: 100vw;
+   height: 200px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   box-shadow: 1px 1px 2px black;  
+}
+
+header:hover{
+   background-color: rgba(255, 255, 255, 0.788);
+   color: black;
+   transition: 3s;
+   box-shadow: none; 
+}
+
+menu.container {
+   display: flex;
+   gap: 50px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: rgb(255, 255, 255);
+   padding: 10px 0px 10px 0px;
+   color: black;
+   
+}
+
+menu > nav > a{
+   color: black;
+   text-decoration: none;
+}
+menu.container:hover{
+
+}
+
+main{
+   padding-top: 80px ;
+   width: 70%;
+   margin: auto;
+   background-color: rgba(255, 255, 255, 0.014);
+}
+
+main > h1,h2,p{
+   padding-bottom: 20px;
+   
+}
+
+section.h1 > h1{
+   font-size: 2em;
+   padding-bottom: 20px;
+}
+
+article.container{
+
+}
+
+article.container:hover{
+
+}
+
+section.container{
+
+}
+
+footer > p{
+   color: white;
+   text-align: center;
+}
+
+footer > p > a{
+   color: white;
+   text-decoration: none;
+   
+}
+
+footer:hover{
+   transition: 1s;
+   font-weight: bolder;
+}

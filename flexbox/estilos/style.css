@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    /* Eixo Principal */
+    justify-content: flex-start;
+    /* Eixo Principal */
+    align-items: center;
+    /* Eixo Transversal */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    flex-grow: 2;
+}
+
+
+
+
